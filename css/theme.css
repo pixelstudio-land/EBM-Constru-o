@@ -1,0 +1,11 @@
+/* Cores da Marca e Imagem de Fundo - EBM Construção */
+:root {
+    /* Cores Principais - Identidade Visual Dourada da EBM Construção */
+    --primary: #E6AE29;
+    --secondary: #121212;
+    --accent: #25D366;
+    --white: #ffffff;
+
+    /* Imagem de Fundo da Seção Hero */
+    --bg-hero: url('../assets/fundo.jpg');
+}
