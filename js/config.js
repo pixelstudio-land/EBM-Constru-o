@@ -7,7 +7,7 @@ const CONFIG = {
     empresa: {
         nome1: "EBM",
         nome2: "CONSTRUÇÃO", // Aparece em destaque (com a cor primária)
-        whatsapp: "5511999999999" // Apenas números (substitua pelo WhatsApp oficial da EBM Construção)
+        whatsapp: "5511981914683" // WhatsApp oficial da EBM Construção
     },
 
     // 2. OPÇÕES DE PISOS E PREÇOS (O Select será populado sozinho no HTML)
