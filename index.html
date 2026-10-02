@@ -68,7 +68,7 @@
                     </select>
                 </div>
 
-                <button class="btn-calc" onclick="calcular()">VER PREÇO ESTIMADO</button>
+                <button class="btn-calc" id="btnCalc" onclick="calcular()">VER PREÇO ESTIMADO</button>
             </div>
         </div>
     </section>
@@ -115,10 +115,10 @@
         <div class="modal-content">
             <span class="close-modal" onclick="fecharModal()">&times;</span>
 
-            <h3>Orçamento Estimado</h3>
+            <h3 id="modalTitulo">Orçamento Estimado</h3>
 
             <div class="price-display">
-                <div class="total-label">Investimento Aproximado</div>
+                <div class="total-label" id="modalLabel">Investimento Aproximado</div>
                 <div class="total-value" id="valorFinal">R$ 0,00</div>
             </div>
 

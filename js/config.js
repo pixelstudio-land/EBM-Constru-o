@@ -11,7 +11,8 @@ const CONFIG = {
     },
 
     // 2. OPÇÕES DE PISOS E PREÇOS (O Select será populado sozinho no HTML)
-    // Conforme especificado: não faz laminado. Vinílico colocado: R$ 160/m²; Mão de obra de instalação: R$ 70/m².
+    // Vinílico colocado: R$ 160/m²; Mão de obra de instalação: R$ 70/m².
+    // Piso Laminado: sob consulta (sem precificação fixa), com CTA direto para WhatsApp.
     pisos: [
         {
             categoria: "Piso Vinílico (Pacote Completo)",
@@ -24,6 +25,14 @@ const CONFIG = {
             nome: "Somente Instalação (Mão de Obra)",
             preco: 70.00,
             descricao: "Mão de obra profissional de instalação de piso vinílico"
+        },
+        {
+            categoria: "Pisos Laminados",
+            nome: "Piso Laminado",
+            preco: null,
+            sobConsulta: true,
+            textoSelect: "Piso Laminado (Sob Consulta no WhatsApp)",
+            descricao: "Orçamento sob medida e catálogo de modelos direto com o especialista"
         }
     ],
 
